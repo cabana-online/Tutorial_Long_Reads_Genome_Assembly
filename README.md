@@ -48,7 +48,7 @@ On the Colab homepage, select "File" and then "Open notebook".
 
 There is a tab for "GitHub"; select that tab and paste the following URL into the search bar under "Enter a GitHub URL or search by organization or user":
 
-`https://github.com/cabana-online/`
+`https://github.com/cabana-online/Tutorial_Long_Reads_Genome_Assembly`
 
 
 After a brief search, you will see the notebook:
@@ -69,7 +69,7 @@ Go to https://colab.research.google.com/.
 
 Select the repository
 
-`https://github.com/cabana-online/ `
+`https://github.com/cabana-online/Tutorial_Long_Reads_Genome_Assembly `
 
 After a brief search, you will see the notebook:
 
@@ -87,7 +87,7 @@ Go to https://colab.research.google.com/.
 
 Select the repository
 
-`https://github.com/cabana-online/Introduction_tutorial`
+`https://github.com/cabana-online/Tutorial_Long_Reads_Genome_Assembly`
 
 After a brief search, you will see the notebook:
 
@@ -130,7 +130,10 @@ D-Genies is a web-based tool for aligning genomes based on sequence. Go to the w
 
 ## Authors & Affiliations: 
 
-Johanna Stepanian, MSc, Universidad de los Andes
-Laura Gonzalez, PhD, Universidad de los Andes
-Luisa Sacristan, MSc, Universidad de los Andes
-Jorge Duitama, PhD, Universidad de los Andes
+- Johanna Stepanian, MSc, Universidad de los Andes
+
+- Laura Gonzalez, PhD, Universidad de los Andes
+
+- Luisa Sacristan, MSc, Universidad de los Andes
+
+- Jorge Duitama, PhD, Universidad de los Andes
