@@ -37,7 +37,7 @@ In this tutorial, we will assemble a strain of *Vibrio alginolyticus* originally
 
 ## Program
 
-### Module 1: [Introduction to Google Colaboratory]()
+### Module 1: [Introduction to Google Colaboratory](Pt1_IntroToCollab.ipynb)
 
 Before going to Python Notebooks, we would like to suggest you create a Google Drive folder and upload the Python notebook to this folder, this would help you in further steps to be organized. 
 Open Google Drive: Just type Google search “Google Drive” and click on the Sign-in result: 
@@ -61,7 +61,7 @@ To run the cells, you will need to sign in with your Google account (feel free t
 
 **Note:** there are limitations in the free version, but they will not be reached in this course.
 
-### Module 2: [NGS and Genome Assembly ]()
+### Module 2: [NGS and Genome Assembly ](Pt2_NGS&GenomeAssembly.ipynb)
 
 This notebook contains a brief context of the origin of the data and theoretical information so our hands on makes more sense to all the audience.
 
@@ -77,7 +77,7 @@ After a brief search, you will see the notebook:
 
 Select it and you will see the notebook open.
 
-### Module 3: [Hands-on tutorial ]()
+### Module 3: [Hands-on tutorial ](Pt3_Hands_On.ipynb)
 
 We created a Google Collab file that performs genome assembly, quality evaluation, gene annotation, alignment and genome comparison with the reference genome. Remember to set up the connection with Drive to the folder that you’re using. 
 
@@ -91,7 +91,7 @@ Select the repository
 
 After a brief search, you will see the notebook:
 
-`03.Modulo_3_NGS.ipynb`
+`Pt3_Hands_On.ipynb`
 
 Select it and you will see the notebook open.
 
@@ -128,8 +128,9 @@ Now let’s visualize our assembly. SynVisio is a web-based synteny viewer where
 D-Genies is a web-based tool for aligning genomes based on sequence. Go to the web portal https://dgenies.toulouse.inra.fr/, in the “Run” tab, load the two genomes you used in the previous step. Explore the visualizations of your data.
 
 
-## Partners
+## Authors & Affiliations: 
 
-
-## Contributors
-
+Johanna Stepanian, MSc, Universidad de los Andes
+Laura Gonzalez, PhD, Universidad de los Andes
+Luisa Sacristan, MSc, Universidad de los Andes
+Jorge Duitama, PhD, Universidad de los Andes
