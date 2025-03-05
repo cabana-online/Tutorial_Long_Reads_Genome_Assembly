@@ -1,7 +1,9 @@
 # Bioinformatic tools for genome assembly and comparative genomics
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14231070.svg)](https://doi.org/10.5281/zenodo.14231070)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14969215.svg)](https://doi.org/10.5281/zenodo.14969215)
+
 
 
 ## Summary
