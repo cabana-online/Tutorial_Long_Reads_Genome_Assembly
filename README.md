@@ -4,7 +4,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14231070.svg)](https://doi.org/10.5281/zenodo.14231070)
 
 
-
 ## Summary
 
 This e-learning tutorial will guide you through the long-read sequencing genome assembly. The availability of new technologies to obtain accurate long DNA sequencing reads enabled the construction of high-quality genome assemblies for complex organisms and streamlined the production of chromosome-level assemblies for most microorganisms. This course aims to provide basic knowledge on the current genome assembly process, including practical training on one tool available for assembling genomes from long reads (NGSEP). The course also includes practical training on common tools for the evaluation of genome assemblies to obtain statistics such as N50, gene completeness, and QV scores. Finally, we will cover some basic tools to align genomes and perform comparative genomics to provide further context on downstream analysis of genome assemblies.
@@ -34,6 +33,8 @@ To complete this tutorial you will need a computer with internet connection.
 Piangua (*A. tuberculosa*) is a commercially valuable bivalve species being economically important for communities along the Colombian Pacific coast. Understanding microbial interactions, including Vibrio, is vital to ensuring the sustainable use of this resource. Vibrio species are known pathogens capable of causing diseases in humans and marine organisms. Since piangua is harvested for consumption, the presence of pathogenic Vibrio isolates poses a potential health risk to humans, especially when consumed raw or undercooked.
 
 In this tutorial, we will assemble a strain of *Vibrio alginolyticus* originally isolated in the Colombian Pacific (Restrepo-Benavides, et al., 2024). We will understand basic concepts of genomics and technologies for DNA sequencing and genome assembly, practice with bioinformatic tools for genome assembly, evaluation and comparative genomics and visualize and compare our assembly to a reference genome.
+
+***Note: It is mandatory to complete the survey at the end of the tutorial, as your feedback is essential for improving our courses and ensuring a better learning experience for future participants. We appreciate your time and input!***
 
 ## Program
 
@@ -81,7 +82,9 @@ Select it and you will see the notebook open.
 
 We created a Google Collab file that performs genome assembly, quality evaluation, gene annotation, alignment and genome comparison with the reference genome. Remember to set up the connection with Drive to the folder that you’re using. 
 
-Data with reads and the reference genome can be found here data. If you make this a subfolder of your main folder, there is no need of additional set up 
+Data with reads and the reference genome can be found [here](https://zenodo.org/records/14969215).
+
+This module also contains a **Results interpretation** section and you will evaluate all the output files created.
 
 Go to https://colab.research.google.com/.
 
@@ -94,38 +97,6 @@ After a brief search, you will see the notebook:
 `Pt3_Hands_On.ipynb`
 
 Select it and you will see the notebook open.
-
-### Module 4: [Results interpretation](04.Module_4_QC.ipynb)
-
-Evaluate all the output files created, it might be needed to check manuals: 
-- Quast: https://quast.sourceforge.net/docs/manual.html
-- Busco: https://busco.ezlab.org/busco_userguide.html
-- gff3 format: https://www.ensembl.org/info/website/upload/gff3.html
-
-As output files of **NGSEP**, you will find:  
-
-- The presence/absence matrix for each of the orthogroups found.
-- The frequency of each orthogroup and its classification between core_genome and accessory_genome.
-- The ortho groups with the list of genes for each one
-- The files for visualization with SynVisio
-+ The alignment of the genomes in html format
-
-Now let’s visualize our assembly. SynVisio is a web-based synteny viewer where you can view aligned genomes (the genome you aligned and the reference genome).
-
-1. Open the link https://synvisio.github.io/#/
-
-2. In the tab “Upload own data to Dashboard” load your output files galn_SynvisioCollinearity.txt y galn_SynvisioAnnot.txt. 
-
-3. Click on upload.
-
-4. Go back to the “Synteny Dashboard” Tab.
-
-5. Select source and target chromosomes to make contrasts. 
-
-6. Explore your data visualization.
-
-**D-GENIES**
-D-Genies is a web-based tool for aligning genomes based on sequence. Go to the web portal https://dgenies.toulouse.inra.fr/, in the “Run” tab, load the two genomes you used in the previous step. Explore the visualizations of your data.
 
 
 ## Authors & Affiliations: 
